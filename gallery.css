@@ -1,58 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
 body{
-    background-color: #f2f2f2;
-}
-/* Main navigation bar */
-.navbar{
-    background-color: #e5dd4b!important;
-    font-size: large;
-    font-weight: 600;
-    border-bottom: 3px solid blue;
-    height: 50px!important;
-    color: black!important;
-
-}
-.link1:hover{
-    background-color: #e2e2e2;
-    color: green;
-    height: 50px;
+    background: #eee;
 }
 
-/* Infomative notice section */
-.bg-red{
-    background-color: red;
-    height: 24px;
-    font-size: 13px;
-    font-weight: normal;
-    
-}
 
-/* Top navigation bar */
-.top-nav{
-    height: 100px;
-    background-color: blue;   
-}
-
-/* 
-.all{
-    height: 30px;
-    width: auto;
-    vertical-align: middle;
-    justify-content: center;
+/*--------------GALLERY PAPE--------------------*/
+.jumbotron{
     text-align: center;
-    margin-top: 0px;
-    
+margin-top: 15px;
+    background: none;
 }
-.search{
-    margin-left: 1100px;
-} */
 
+.jump{
+    margin-bottom: -70px;
+    margin-top: -40px;
+}
 
-.active{
-    background-color: blue;
-    color: #fff!important;
+.first{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #2b5876;
+}
+
+.third{
+  font-family: 'Roboto', sans-serif;  
+}
+
+.second{
+    background-color: #f8f9fa;
+}
+
+.nas{
     height: 50px;
+    background: black;
+    width: 100%;
+    margin: 0;
 }
-.active:hover{
-    opacity: 0.8;
-}
-

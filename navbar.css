@@ -1,0 +1,83 @@
+/* Main navigation bar */
+.navbar{
+    background-color: #e5dd4b!important;
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 3px solid blue;
+    border-top: 1px solid white;
+    height: 50px!important;
+    color: black!important;
+
+}
+.link1:hover{
+    background-color: #e2e2e2;
+    color: green;
+    height: 47px;
+}
+
+/* Infomative notice section */
+.bg-red{
+    background-color: red;
+    height: 24px;
+    font-size: 13px;
+    font-weight: normal;
+    
+}
+
+/* Top navigation bar */
+.top-nav{
+    height: 100px;
+    background-color: blue;   
+}
+
+.active{
+    background-color: blue;
+    color: #fff!important;
+    height: 50px;
+}
+.active:hover{
+    opacity: 0.8;
+}
+.text2{
+    display: none;
+}
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bg-yellow{
+    background-color: #e5dd4b!important;
+}
+
+
+@media only screen and (max-width: 768px)
+.float-right .text1, .float-right .text2 {
+    display: none!important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px)
+.float-right {
+    left: 15px!important;
+    right: 15px!important;
+    text-align: right;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.float-right{
+    float: right;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+}
+.float-right:hover{
+    text-decoration: none!important;
+}
