@@ -55,4 +55,43 @@ body{
 .active:hover{
     opacity: 0.8;
 }
+html{
+    background-color: gray!important;
+}
+
+/* Contact section css begins here */
+.text-bold{
+  font-weight: 600;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
