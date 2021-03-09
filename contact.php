@@ -1,259 +1,99 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<!-- Important meta tags -->
-	<meta charset="utf-8" />
-	<meta name="description" content="Official website for Sacco X" />
-	<meta name="kewords" content="Awesome Website, Sacco X" />
-	<meta name="author" content="Abeinemukama Vicent" />
-	<meta http-equiv="refresh" content="500" />
-	
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css.map" />
-    
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+	<!--==== Header File ====-->
+	<?php include 'header.php';?>
+	<!------------------ CONTACT US MAIN SECTION ------------------->  
 
-	<!-- Font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css" />
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css" type="text/css" />
-	
-	<!-- AOS CSS -->
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css" />
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="contact.css"  />
+  <!-- About top image section -->
+  <section id="contacti">
+      <img src="Images/cent.jpg" class="w-100 adj-margin" alt="About Us Image" />
+  </section>
 
-	<!-- Website title -->
-	<title>Sacco X</title>
-</head>
-<body>
-
-      <!-- Navbar -->
-  <?php include "navbar.php";?>
-  <!-- end of NAVBAR -->
-
-      <!-- About top image section -->
-      <section id="aboutti">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-          <img src="image/cent.jpg" class="w-100 adj-margin" alt="About Us Image" />
-        </div>
-      </div>
-        </div>
-      </section>
-
-      <!-- Top cards with branch contact information -->
-      <div class="container w-60 my-3">
+  <!-- Contact Us Section -->
+    <section class="section-padding section-dark" id="contact">
+      <div class="container">
+        <div class="section-title text-left mt-3 mb-1">
+        	<h2>Contact Us</h2>
+        	<p>Contact</p>
+      	</div>
         <div class="row">
+          <!-- Section Titile -->
+          <div class="col-md-6 mt-1">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
 
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
-              </div>
-                <div class="card-body">
-                  <h6>Tel: +2567777778888</h6>
-                  <h6>Email: info@saccox.co.ug</h6>
-                </div>
+            <div>
+             Company:  <span href="https://saccox.com">SACCO-X</span>
+            </div>
+            <div>
+             Address: <span href="#">Sacco X, Head Office: Lorem</span>
+            </div>
+            <div class="find-widget">
+              Phone:  <a href="tel:+256-000-000-000" hover-none>+ 256-000-000-000</a>
+            </div>
+                
+            <div>
+              Email:  <a href="mailto:saccox@gmail.com" class="hover-none">saccox@gmail.com</a>
+            </div>
+            <div>
+               Hours: <span href="#">Mon to Sat: 09:30 AM - 10.30 PM</span>
             </div>
           </div>
 
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
+          <!-- contact form -->
+          <div class="col-md-6" style="padding-bottom:20px;">
+            <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+              <!-- Name -->
+              <div class="form-group label-floating">
+                <label class="control-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                <div class="help-block with-errors"></div>
               </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
+              <!-- email -->
+              <div class="form-group label-floating">
+                <label class="control-label" for="email">Email</label>
+                <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                <div class="help-block with-errors"></div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
+                      
+              <!-- Message -->
+              <div class="form-group label-floating">
+                  <label for="message" class="control-label">Message</label>
+                  <textarea class="form-control" style="height:150px;" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                  <div class="help-block with-errors"></div>
               </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
+              <!-- Form Submit -->
+              <div class="form-submit mt-5">
+                  <button class="btn btn-primary" type="submit" id="form-submit">Send Message</button>
+                
               </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
-              </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
-              </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
-              </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
-              </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card my-3">
-              <div class="card-hearder bg-secondary text-white">
-                <h5 class="text-center">Lorem Branch</h5>
-              </div>
-              <div class="card-body">
-                <h6>Tel: +2567777778888</h6>
-                <h6>Email: info@saccox.co.ug</h6>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
-
-        <!--  -->
-        
-        
-        <section id="email_us">
-          <div class="container w-60 my-3">
-            <div class="card border-0">
-              <div class="card-body">
-                <h4 class="title text-primary">Email Us</h4>
-                <div class="row remove-underline">
-                  <div class="col-md-10">
-                    <p>
-                      If you have business inquiries or other questions, please fill out the 
-                      following form to contact us. Thank you.
-                    </p>
-                    <form>
-                      <div class="form-group">
-                        <label for="fullname"><span class="text-bold">Name</span><span class="asterisk text-danger">*</span></label>
-                        <input type="text" class="form-control mb-3" required id="fullname" aria-describedby="emailHelp">
-                        
-                      </div>
-                      <div class="form-group">
-                        <label for="emailid"><span class="text-bold">Email Address</span><span class="asterisk text-danger">*</span></label>
-                        <input type="email" class="form-control mb-2" required id="emailid">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlTextarea1"><span class="text-bold">Comment/ Message</span><span class="asterisk text-danger">*</span></label>
-                        <textarea class="form-control mb-3" required id="exampleFormControlTextarea1" rows="5"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <div class="container w-60 my-3">
-          <div class="card border-0">
-            <div class="card-body">
-              <h4 class="title text-primary">Visit Us</h4>
-              <div class="row remove-underline">
-                <div class="col-md-6 mt-3">
-                  <p>Come to our head offices or any other branch near you</p>
-                </div>
-                <div class="col-md-6">
-                  <p>
-                    Sacco X, Head Office: Lorem,<br>
-                    Plot 1-- Lorem Road. <br>
-                    P. O. Box 1-- City Name <br>
-                    Tel: 07777788888, +256 7000000444, +256 44446666667. <br>
-                    E-mail: info@saccox.co.ug. <br>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-              
-                  
-
-     <!--Calculator-->
-  <?php include "calc.php";?>
-  <!-- end of calculator -->
-     
- <!-- Footer -->
-  <?php include "footer.php";?>
-  <!-- end of footer -->
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-	<!-- External JavaScript file -->
-	<script type="text/javascript" src="app.js"></script>
-	
-	<!-- AOS JavaScript -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <div class=" row h-50 contact-map" id="googleMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.958804892796!2d30.668750714271816!3d-0.6296305354387465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd2046c47bd8458b!2sLink%20Suites%2C%20Bar%20%26%20Restaurant!5e1!3m2!1sen!2sug!4v1602345579529!5m2!1sen!2sug" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> 
+      </div>
+    </div>
+  </section>
   
-	<!-- Initialise AOS -->
-	<script>
-    		AOS.init();
-  	</script>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--==== Footer File ====-->
+	<?php include 'footer.php';?>

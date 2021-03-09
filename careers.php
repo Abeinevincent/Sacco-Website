@@ -1,105 +1,74 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<!-- Important meta tags -->
-	<meta charset="utf-8" />
-	<meta name="description" content="Official website for Sacco X" />
-	<meta name="kewords" content="Awesome Website, Sacco X" />
-	<meta name="author" content="Abeinemukama Vicent" />
-	<meta http-equiv="refresh" content="500" />
-	
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css.map" />
-    
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+	<!--==== Header File ====-->
+	<?php include 'header.php';?>
 
-	<!-- Font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css" />
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css" type="text/css" />
-	
-	<!-- AOS CSS -->
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css" />
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="mbanking.css"  />
+	<section>
+      <img src="Images/careers.jpg" class="d-block w-100 img-responsive" alt="About Us Image"/>
+  </section>
 
-	<!-- Website title -->
-	<title>Bootstrap Test</title>
-</head>
-<body>
+  <!-- careers section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-primary">Working at Sacco X</h2>
+            <p>
+              Welcome to Sacco X&rsquo;s careers section. We are among Uganda's leading savings and co-operative organisations, employing more than rolem staff. Joining Sacco X is an opportunity to be part of a dynamic team working to offer appropriate financial solutions to our customers countrywide.
+            </p>
+            <p>See Bottom Of the page</p>
+            <h3 class="text-primary">To apply:</h3>
+            <p>a.
+              <a href="#" target="_blank" rel="noopener">Download an application</a> for employment form <a href="#" target="_blank" rel="noopener">Here</a><br />b. Fill the form and enclose an application letter, updated Curriculum Vitae (CV), plus copies of all academic credentials, testimonials and contact details of three competent referees. <br />c. Submit your application to:
+            </p>
+            <p>
+              General Manager Human Resource<br />Sacco X<br />P.O. Box 0000<br />Mbarara
+            </p>
+            <p>
+              Note; We appreciate the interest you have shown in growing the Sacco business with our team. However only shortlisted candidates will be contacted. Please Consider your application unsuccessful if we have not contacted you two weeks from the closing date of this advertisement.
+            </p>
 
-      <!-- Navbar -->
-  <?php include "navbar.php";?>
-  <!-- end of NAVBAR -->
+            <table class="table table-hover justify-content-center text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>REF NO</th>
+                  <th>JOB TITLE</th>
+                  <th>CLOSING DATE</th>
+                </tr>
+              </thead>
+            <tbody>
 
-      <!-- Mobile banking top image section -->
-      <section id="aboutti">
-        <div class="container-fluid">
-          <img src="Images/abouti.jpg" class="w-100 adj-margin" alt="About Us Image" />
+          <!-- php code to get careers from database here -->
+
+            </tbody>
+          </table>
+
         </div>
-      </section>
-
-      
-
-
-
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
-     <!--Calculator-->
-  <?php include "calc.php";?>
-  <!-- end of calculator -->
-     
- <!-- Footer -->
-  <?php include "footer.php";?>
-  <!-- end of footer -->
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-	<!-- External JavaScript file -->
-	<script type="text/javascript" src="app.js"></script>
-	
-	<!-- AOS JavaScript -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
-	<!-- Initialise AOS -->
-	<script>
-    		AOS.init();
-  	</script>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--==== Footer File ====-->
+	<?php include 'footer.php';?>

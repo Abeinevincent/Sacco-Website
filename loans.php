@@ -1,100 +1,140 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<!-- Important meta tags -->
-	<meta charset="utf-8" />
-	<meta name="description" content="Official website for Sacco X" />
-	<meta name="kewords" content="Awesome Website, Sacco X" />
-	<meta name="author" content="Abeinemukama Vicent" />
-	<meta http-equiv="refresh" content="500" />
-	
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css.map" />
-    
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+	<!--==== Header File ====-->
+	<?php include 'header.php';?>
+	<!-- Loans top image section -->
+  <section>
+    <img src="Images/cent.jpg" class="d-block w-100 img-responsive" />
+  </section>
 
-	<!-- Font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css" />
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css" type="text/css" />
-	
-	<!-- AOS CSS -->
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css" />
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="loans.css"  />
+  <!-- loans section  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="loans-list-page">
+          <div class="row">
 
-	<!-- Website title -->
-	<title>Bootstrap Test</title>
-</head>
-<body>
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card border-0" data-aos="zoom-in-right" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
-     <!-- Navbar -->
-  <?php include "navbar.php";?>
-  <!-- end of NAVBAR -->
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
-      <!-- Loans top image section -->
-      <section id="aboutti">
-        <div class="container-fluid">
-          <img src="Images/abouti.jpg" class="w-100 adj-margin" alt="About Us Image" />
-        </div>
-      </section>
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card" data-aos="zoom-in-left" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card border-0" data-aos="zoom-in-right" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
-         <!--Calculator-->
-  <?php include "calc.php";?>
-  <!-- end of calculator -->
-     
- <!-- Footer -->
-  <?php include "footer.php";?>
-  <!-- end of footer -->  
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card" data-aos="zoom-in-left" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card border-0" data-aos="zoom-in-right" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
 
-	<!-- External JavaScript file -->
-	<script type="text/javascript" src="app.js"></script>
-	
-	<!-- AOS JavaScript -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
-	<!-- Initialise AOS -->
-	<script>
-    		AOS.init();
-  	</script>
-</body>
-</html>
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 mt-3">
+              <div class="card" data-aos="zoom-in-left" data-aos-duration="1000" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);">
+                <div class="card-body text-center">
+                  <img src="Images/icon.jpg" width="64px" alt="Directions" title="Get Directions" class="direction img-circle" />
+                  <h4>Sacco X Salary Loan</h4>
+                  <p>
+                    Let your big plans and dreams come to life with the Sacco X salary loan. Get fast loans with flexibility<br/> 
+                  </p>
+                  <p><a class="btn btn-sm btn-danger" href="#">Read More</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        <div class="row"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+	<!--==== Footer File ====-->
+	<?php include 'footer.php';?>

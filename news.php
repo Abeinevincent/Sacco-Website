@@ -1,288 +1,177 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<!-- Important meta tags -->
-	<meta charset="utf-8" />
-	<meta name="description" content="Official website for Sacco X"/>
-	<meta name="kewords" content="Awesome Website, Sacco X"/>
-	<meta name="author" content="Abeinemukama Vicent"/>
-	<meta http-equiv="refresh" content="500" />
-	
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.rtl.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css.map" />
-    
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+	<!--==== Header File ====-->
+	<?php include 'header.php';?>
 
-	<!-- Font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css" />
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css" type="text/css" />
-	
-	<!-- AOS CSS -->
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css" />
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="news.css"  />
+	<!-- news and updates top image section -->
+  	<section id="newsi">
+  	    <img src="Images/cent.jpg" class="w-100 adj-margin" alt="About Us Image" />
+  	</section>
 
-	<!-- Website title -->
-	<title>Bootstrap Test</title>
-</head>
-
-<body>
-
-   <!-- Navbar -->
-  <?php include "navbar.php";?>
-  <!-- end of NAVBAR -->
-
-      <!-- news and updates top image section -->
-      <section id="newsi">
-        <div class="container-fluid">
-          <img src="Images/abouti.jpg" class="w-100 adj-margin" alt="About Us Image" />
+  <div class="container w-60 my-3">
+    <div class="row">
+      <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="zoom-in-right" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
         </div>
-      </section>
 
-      <div class="container w-60 add-border my-3">
-        <div class="row">
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-white bg-secondary">News Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Light card title</h5>
-                      <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
-                          ipsam, similique.
-                      </p> 
-                      <div class="text-muted">Posted: December 16, 2020</div>
-                      <button type="button" class="btn btn-primary">Read More</button>
-                    </div> 
-                </div>
-            </div>
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="fade-down" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
         </div>
-      </div>
 
-       <!--Calculator-->
-      <?php include "calc.php";?>
-      <!-- end of calculator -->
-     
-      <!-- Footer -->
-      <?php include "footer.php";?>
-      <!-- end of footer -->
-       
-        
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="zoom-in-left" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="zoom-in-right" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="fade-down" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="zoom-in-left" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="zoom-in-right" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="fade-down" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-center">
+        <div class="card bg-light mb-xs-4 mb-md-3" style="box-shadow: 10px 10px 5px rgba(0,0,0,0.1);" data-aos="zoom-in-left" data-aos-duration="1000">
+          <div class="card-header text-white bg-secondary">News Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Repudiandae et corrupti debitis. Quis veniam velit quia? Veritatis doloribus velit 
+                ipsam, similique.
+              </p> 
+              <div class="text-muted">Posted: December 16, 2020</div>
+              <button type="button" class="btn btn-primary">Read More</button>
+            </div> 
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- Pagination section to accomodate multiple pages -->
+  <div class="container">
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-end">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
 
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-	<!-- External JavaScript file -->
-	<script type="text/javascript" src="app.js"></script>
-	
-	<!-- AOS JavaScript -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
-	<!-- Initialise AOS -->
-	<script>
-    		AOS.init();
-  	</script>
-</body>
-</html>
+  <!--==== Footer File ====-->
+  <?php include 'footer.php';?>
